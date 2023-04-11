@@ -51,5 +51,4 @@ def display_results():
 
     
 ######### call on main program to execute #########
-    
 main()
