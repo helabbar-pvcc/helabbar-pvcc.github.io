@@ -26,9 +26,9 @@
         <td>Network Classifications</td>
         <td>
             <ul>
-                <li>LAN: </li>
-                <li>MAN: </li>
-                <li>WAN:</li>
+                <li>LAN:"Local Area Network". A collection of devices connected together in one physical location. The two primary ways to enable LAN connections are ethernet and wi-fi. </wi-fi> </li>
+                <li>MAN:"Metropolitan Area Network". A computer network that connects computers witin a metropolitan area. It is larger than a LAN but smaller than a WAN. </li>
+                <li>WAN: "Wide-are Network". A computer network that connects smaller networks over a large distance.</li>
             </ul>
         </td>
     </tr>
@@ -36,8 +36,8 @@
         <td>Network Models</td>
         <td>
             <ul>
-            <li>Bus Network: </li>
-            <li>Star Network:</li>
+            <li>Bus Network:A LAN type in which each node (device) is connected to a main cable or link called a bus. </li>
+            <li>Star Network: AKA a hub-and-spoke network. A LAN type in which all nodes connect directly back to a singular computer (a hub).</li>
             </ul>
         </td>
     </tr>
@@ -45,8 +45,8 @@
         <td>Protocols</td>
         <td>
             <ul>
-                <li>CSMA/CD Ethernet:</li>
-                <li>CSMA/CA Wifi: </li>
+                <li>CSMA/CD Ethernet:"Carrier Sense, Multiple Access with Collision Detection". A networked host listens to the bus and waits until there's no traffic then sends a packet. If there is a collision on the bus, the host will wait a random amount of time and then attempt to resend until the packet is sent.</li>
+                <li>CSMA/CA Wifi:"Carrier Sense, Multiple Access with Collision Avoidance". On wireless networks, a host will wait until there is a channel that has been silent for a certain amount of time then transmits. If a collision happens, the host will wait a short period of time then attempt to retransmit.</li>
             </ul>
         </td>
     </tr>
@@ -54,21 +54,21 @@
         <td>Combining Networks</td>
         <td>
             <ul>
-                <li>Repeater: </li>
-                <li>Bridge: </li>
-                <li>Switch: </li>
-                <li>Router: </li>
-                <li>Gateway: </li>
+                <li>Repeater: A device that passes signals back and forth between the two original buses (usually with an amplifier) without considering the meaning of the signals.</li>
+                <li>Bridge: Like a repeater but it searches the signals and is more efficient. It looks at the destination address for each message and only fowrads it when its destined for a computer on the other side. Links two seperate LANs, useful for segmenting networks and extending them.  </li>
+                <li>Switch: Essentially a bridge with multiple connections, allowing it to connect several buses rather than just two.</li>
+                <li>Router: Useful for connecting faraway networs, and they store data thats delivered in the form of packers. Different from the above becausew it provides links between networks while allowing them to keep their unique internal characteristics.</li>
+                <li>Gateway: A router that provides access to an external network to devices on a local network such as the Internet.</li>
             </ul>
         </td>
     </tr>   
      <tr style="color:rgb(6, 4, 102)">
-        <td>Client/server model:</td>
+        <td>Client/server model: A popular convention for interprocess communication. A computer called a server runs a networked service such as a website which other computers called clients can connect to and use said service. </td>
         <td>
             <ul>
-                <li>P2P:peer-to-peer: </li>
-                <li>Distributed System:</li>
-                <li>Cloud Computing</li>
+                <li>P2P:peer-to-peer: Unlike the client/server model, clients connect to each other and to provide and receive a service. Commonly used in video games and file sharing.</li>
+                <li>Distributed System: Software is ran across different computers connected together via a network.</li>
+                <li>Cloud Computing: A type of large scale distributed system which users can pay for a service to be ran on.</li>
             </ul>
         </td>
     </tr>   
@@ -76,9 +76,9 @@
         <td>Internet Addressing</td>
         <td>
             <ul>
-                <li>Tier 1: </li>
-                <li>Tier 2: </li>
-                <li>Tier 3: </li>
+                <li>Tier 1: Large scale Internet Service Providers (ISP) that are the backbones of the Internet. They connect together tier 2 ISPs.</li>
+                <li>Tier 2: Medium scale ISPs that connect together tier 3 ISPs.</li>
+                <li>Tier 3: AKA Access ISPs, are the providers that bring internet access to consumers.</li>
             </ul>
         </td>
     </tr>
@@ -86,10 +86,10 @@
         <td>IP Adress</td>
         <td>
             <ul>
-                <li><a href="https://icann.org/">ICANN</a>:  </li>
-                <li>DNS: </li>
-                <li>TLD: Top-level domain</li>
-                <li><a href="https:/www.worldstandards.eu/other/tlds/">Country-code TLDs</a>: </li>
+                <li><a href="https://icann.org/">ICANN</a>: "Internet Corporation for Assigned Names and Numbers". They are a nonprofit corporation that regulates Top Level Domains</li>
+                <li>DNS: "Domain Name System". A system that converts domain names into IP addresses.</li>
+                <li>TLD: "Top-level domain". Domains that are regulated by ICAAN which are the last section in a domain name such as com in google.com.</li>
+                <li><a href="https:/www.worldstandards.eu/other/tlds/">Country-code TLDs</a>: Two letter TLDs used for specific countries (i.e. au for Australia and ca for Canada). </li>
             </ul>
         </td>
     </tr>
@@ -97,9 +97,9 @@
         <td>Internet Protocols</td>
         <td>
             <ul>
-                <li>FTP</li>
-                <li>HTTP</li>
-                <li>SMTP</li>
+                <li>FTP: "File Transfer Protocol". Used to transfer files between computers.</li>
+                <li>HTTP: "Hyper Text Transfer Protocol". Used for almost every single website to transfer HTML and other files to users.</li>
+                <li>SMTP: "Simple Mail Transfer Protocol". Used to transfer emails between computers.</li>
             </ul>
         </td>
     </tr>
@@ -107,30 +107,30 @@
         <td>World Wide Web</td>
         <td>
             <ul>
-                <li>URL</li>
-                <li>Client-side activities</li>
-                <li>Server-side activities</li>
+                <li>URL: "Uniform Resource Locator". The unique address of each document on the web. There are four parts to it.</br> 1- The the protocol required to access the document </br>2-Mnemonic name of host holding the document. </br>3- Directory path indicating where the document is within the hosts file system.</br>4- the document name.</li>
+                <li>Client-side activities: activities/actions, such as filling out a form, performed by a client (such as a browser).</li>
+                <li>Server-side activities: Activities, such as pulling up the results to a google search, performed by the server (such as a webserver).</li>
             </ul>
         </td>
     </tr>
     <tr style="color:rgb(7, 3, 3)">
-        <td>Internet four-layer software</td>
+        <td>Internet four-layer software: AKA TCP/IP Model</td>
         <td>
             <ul>
-                <li>Application Layer: </li>
-                <li>Transport Layer: </li>
-                <li>Network Layer: </li>
-                <li>Link Layer: </li>
+                <li>Application Layer: Consists of software units such as clients and servers that use Internet communications to carry out their tasks. This layer also consists of packages.It uses the transport layer to send and recieve messages over the internet. (Think of how you use a shipping company.) </li>
+                <li>Transport Layer: Accepts messages from the application layer and ensures that the messages are properly formatted for transmission over the internet. It divides the messages into small bits and sends them individually to make the transfer go smoothly.These segments are know as packets.</li>
+                <li>Network Layer: Determins where a packet has to go, and then gives the packet to the link layer for transmission. (Think of the machine that tapes labels to boxes being shipped.)</li>
+                <li>Link Layer: In charge of receiving and transmitting packets.It recieves it and then hands it up to the network layer to determine where it should go next.  </li>
             </ul>
         </td>
     </tr>
     <tr style="color:rgb(9, 96, 111)">
-        <td>Internet is:</td>
+        <td>Internet is: </td>
         <td>
             <ul>
-                <li>Packet-switching network: </li>
-                <li>Fault tolerant: </li>
-                <li>Redunadant: </li>
+                <li>Packet-switching network: A network type that sends data split across packets for faster and more reliable data transfer.</li>
+                <li>Fault tolerant: A system that can still operate during a fault such as hardware failure.</li>
+                <li>Redunadant: A system with extra resources in case of a failure in one of them such as server power supplies and disks arrays.</li>
             </ul>
         </td>
     </tr>
@@ -138,13 +138,13 @@
         <td>Cybersecurity</td>
         <td>
             <ul>
-                <li>Malware: </li>
-                <li>Virus: </li>
-                <li>Worm: </li>
-                <li>Trojan horse: </li>
-                <li>Spyware: </li>
-                <li>Phishing: </li>
-                <li>DDoS attack: </li>
+                <li>Malware: Abbreviation for "malicious software". One way for a computer system to be attacked via network connections.</li>
+                <li>Virus: Software that infects a computer by inserting itself into programs that already reside in the machine. When the host program is executed, so is the virus.</li>
+                <li>Worm: An autonomous program that transfers itself through a network, taking residence in computers and forwarding copies of itself to other computers. Can degarde applications and overload a network or internet.</li>
+                <li>Trojan horse: A program that enters a computer system disguised as a desireable program. Once in the computer, it can harm it either immediately or at a selected time.</li>
+                <li>Spyware: AKA Aniffing software. Software that collects information about activities at the computer it resides in, and sends the information back to the attacker.</li>
+                <li>Phishing: Obtaining information by asking for it while posing as a credibleand trustworthy group.</li>
+                <li>DoS attack: "Denial of Service". The process of overloading a computer with messages. This is done by planting software into numerous computers that will generate messages when a signal is given. </li>
             </ul>
         </td>
     </tr>
@@ -152,12 +152,12 @@
         <td>Protection</td>
         <td>
             <ul>
-                <li>Firewall: </li>
-                <li>Spam Filter: </li>
-                <li>Proxy Server: </li>
-                <li>Antivirus software: </li>
-                <li>Cryptography: </li>
-                <li>Public Key Encryption: </li>
+                <li>Firewall: A program to filter what traffic passes a point ina  network.Can be installed and designed to block certain incoming/outcoming messages from certain addresses/origins. Can block DoS attacks. </li>
+                <li>Spam Filter: A variation of a firewall. It is a firewall designed to block unwanted mail.</li>
+                <li>Proxy Server: A software unit that acts as an intermiadiary between a client and a server. with the goal of shielding the client from adverse actions by the server.</li>
+                <li>Antivirus software: Used to detect and remove viruses and other infections. Defends against attacks via network connections. Antivirus software must be regularly maintained and updated.</li>
+                <li>Cryptography: The use of mathematical algorithms to obfuscate data in a way it can be reversed using only the correct key.</li>
+                <li>Public Key Encryption: Encryption systems designed to gaving knowledge on how messages are encrypted does not allow one to decrypt messages.</li>
             </ul>
         </td>
     </tr>
