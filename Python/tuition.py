@@ -1,4 +1,4 @@
-# Name: my name
+# Name: Hanan El Abbar
 # Prog Purpose: This program computes college tuition & fees based on number of credits
 #   PVCC Fee Rates are from: https://www.pvcc.edu/tuition-and-fees
 #   NOTE: All fees are PER CREDIT
