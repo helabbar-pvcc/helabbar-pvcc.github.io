@@ -37,3 +37,20 @@ def main():
     print("\nNote: Position numbers in a list begin with 0, not with 1")
     print("Pop a dog off from position 3 (Which is the 4th dog) in the list:")
     print(dogs)
+    print(another_dog + "was removed from position 3 of the list.")
+
+    dogs.remove('AnnaBelle')
+    print("\nRemove a dog by name rather than position in the list:")
+    print(dogs)
+
+    dogs2=dogs
+    print("\nA list can be copied into another list by setting one equal to the other:")
+    print(dogs)
+    print(dogs2)
+
+    print("\nUse a FOR loop to give each dog in the same last name:")
+     for 1 in range(len(dogs)):
+       dogs[1] = dogs[1]+"El Abbar"
+    print(dogs)
+
+main()
