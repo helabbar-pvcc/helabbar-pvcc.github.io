@@ -12,4 +12,28 @@ def main():
     print("\nOriginal list of dog names:")
     print(dogs)
 
-    
+    dogs.reverse()
+    print("\nList from last to first:")
+    print(dogs)
+
+    dogs.sort()
+    print("\nAlphabetized list:")
+    print(dogs)
+
+    dogs.sort(reverse = True)
+    print("\nList in reverse alphabetized order:")
+    print(dogs)
+
+    dogs.append("Ranger")
+    print("\nAdd a dog to the end of a list:")
+    print(dogs)
+
+    doggy=dogs.pop(0)
+    print("\nPop a dog off (remove) from the front of the list:")
+    print (dogs)
+    print(doggy + "was removed from the front of the list.")
+
+    another_dog=dogs.pop(3)
+    print("\nNote: Position numbers in a list begin with 0, not with 1")
+    print("Pop a dog off from position 3 (Which is the 4th dog) in the list:")
+    print(dogs)
