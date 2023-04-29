@@ -7,7 +7,7 @@ PAY_RATES = (16.50, 15.75, 15.75, 19.50)
 DEDUCTION_RATES = (0.12, 0.03, 0.062, 0.0145)
 
 # global variables
-category_code = 0
+category_code = "C"
 hours_worked = 0
 gross_pay = 0
 federal_income_tax_deduction = 0
