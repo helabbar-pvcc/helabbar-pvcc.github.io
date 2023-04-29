@@ -67,3 +67,5 @@ def print_grade_report():
         finex = str(stu[i]['fin_exam'])
         fingrade = format(stu[i]['fin_grade'],'6,.2f')
         print( sname + "\t" + hw + "\t" + midex + "\t" + finex + "\t" + fingrade + " " + stu[i]['ltr_grade'])
+
+main()
